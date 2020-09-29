@@ -41,3 +41,6 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
         -D HAVE_opencv_python3=ON \  
         -D PYTHON_EXECUTABLE=/usr/bin/python \  
         -D BUILD_EXAMPLES=ON ..  
+make
+sudo make install
+sudo ldconfig
